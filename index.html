@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3DVerse - Professional Templates</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">3DVerse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#templates">Templates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <section id="home" class="hero-section">
+            <h1 class="display-1">3DVerse Templates</h1>
+            <p class="hero-subtitle">Elevate your web presence with cosmic designs</p>
+            <a href="#templates" class="cta-btn">Explore Templates</a>
+        </section>
+
+        <!-- Templates Section -->
+        <section id="templates" class="content-section templates-section">
+            <h2 class="section-title">Our Templates</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="template-card">
+                        <div class="template-preview" style="background: linear-gradient(135deg, #5e60ce, #54f1d2);"></div>
+                        <h3 class="template-title">Creative Portfolio</h3>
+                        <p class="template-desc">Showcase your art with a bold, modern layout.</p>
+                        <a href="#" class="template-btn">View Template</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="template-card">
+                        <div class="template-preview" style="background: linear-gradient(135deg, #54f1d2, #5e60ce);"></div>
+                        <h3 class="template-title">Business Landing</h3>
+                        <p class="template-desc">Launch your startup with a sleek design.</p>
+                        <a href="#" class="template-btn">View Template</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="template-card">
+                        <div class="template-preview" style="background: linear-gradient(135deg, #5e60ce, #54f1d2);"></div>
+                        <h3 class="template-title">E-Commerce Store</h3>
+                        <p class="template-desc">Sell in style with a dynamic shopfront.</p>
+                        <a href="#" class="template-btn">View Template</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="content-section about-section">
+            <h2 class="section-title">About Us</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h3>Our Vision</h3>
+                        <p>We’re pioneering the future of web design with immersive 3D experiences and customizable templates.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h3>Our Expertise</h3>
+                        <p>Our team combines creativity and technology to deliver professional, user-friendly solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="content-section contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6">
+                    <form class="contact-form" id="contactForm" novalidate>
+                      
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 3D Canvas Container -->
+    <div id="canvas-container"></div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
